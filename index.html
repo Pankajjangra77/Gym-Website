@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Haryana</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(Img/bg.jpg);
+        background-size: 100%;
+        height: 950px;
+        font-family: 'Baloo bhai', cursive;
+        color: white;
+    }
+
+    .logo {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        line-height: 5px;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+    .logo div {
+        text-align: center;
+    }
+
+    .searchbox {
+        position: absolute;
+        
+        display: inline-block;
+        right: 30px;
+        top: 28px;
+    }
+
+    .btn {
+        font-family: 'Baloo bhai', cursive;
+        background-color: black;
+        color: wheat;
+        padding: 4px 14px;
+        border: 2px solid mediumorchid;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(138, 70, 70);
+    }
+
+    .navbar {
+        display: inline-block;
+        color: honeydew;
+        display: block;
+        width: 40%;
+        margin: 33px auto;
+        /* border: 2px solid green; */
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: brown;
+    }
+
+    .container {
+        margin: 200px 130px;
+        padding: 18px 40px;
+        border: 2px solid greenyellow;
+        border-radius: 10px;
+        width: 30%;
+    }
+
+    .form-group input {
+        font-family: 'Baloo bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 2px;
+        border: 2px solid fuchsia;
+        margin: 8px auto;
+        font-size: 20px;
+        border-radius: 14px;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="logo">
+            <img src="Img/logo.jpg" alt="gym logo">
+            <div>Gym Haryana</div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="fmgm">Home</a></li>
+                <li><a href="fmgm">About us</a></li>
+                <li><a href="fmgm">Fitness Calculator</a></li>
+                <li><a href="fmgm">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for search bar -->
+        <div class="searchbox">
+            <button class="btn">Call us now</button>  <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym in Haryana </h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Entre your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Entre your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Entre your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Entre your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Entre your Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
